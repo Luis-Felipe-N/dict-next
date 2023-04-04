@@ -1,0 +1,20 @@
+.main {
+    max-width: 1200px;
+    margin: 3rem auto;
+
+    h1 {
+        margin-bottom: 1rem;
+    }
+
+    input {
+        height: 3rem;
+        width: 100%;
+        padding: 0 1rem;
+        border-radius: 5px;
+        border: 0;
+
+        &:focus {
+            outline: 0;
+        }
+    }
+}
